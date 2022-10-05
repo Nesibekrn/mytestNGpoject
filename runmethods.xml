@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Blue Rental Test Suite" verbose="1" >
+    <test name="Run Methods">
+        <classes>
+            <!--            class 1 path-->
+            <class name="techproed.tests.Day13_TestNGAnnotation">
+                <!--                method path-->
+                <methods>
+                    <!--                    include runs all of the listed method-->
+                    <include name="test4" />
+                    <include name="test5" />
+                    <include name="test6" />
+                </methods>
+            </class>
+
+            <!--            class 2 path-->
+            <class name="techproed.tests.smoketest.login.Day16_NegativeLogin">
+                <!--                method path-->
+                <methods>
+                    <!--                    exclude run ALL but this method-->
+                    <exclude name="invalidEmail" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
