@@ -15,7 +15,7 @@ public class Day17_DataProvider2 {
 
     //    DATA PROVIDER METHOD
 //    Copied this methods from teh first class
-    @DataProvider/*(parallel = true)*/
+    @DataProvider(parallel = false)
     public Object[][] customerData(){
         Object [][] customerCredentials = {
                 {"customer8@bluerentalcars.com","98765"},

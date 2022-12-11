@@ -10,7 +10,7 @@ import techproed.utilities.ReusableMethods;
 public class Day16_PositiveLogin {
     HomePage homePage;
     LoginPage loginPage;
-    @Test(groups = "login-group")
+    @Test (groups = {"login-group","smoke test"})
     public void customerLogin(){
 //        going to the url
         Driver.getDriver().get(ConfigReader.getProperty("app_url"));

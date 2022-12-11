@@ -20,5 +20,6 @@ public class Day14_SoftAssert {
         System.out.println("Line 15");
         sa.assertEquals("a","a");//PASS
         sa.assertAll();
+        
     }
 }

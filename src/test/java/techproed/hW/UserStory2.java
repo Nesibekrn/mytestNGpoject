@@ -69,7 +69,7 @@ public class UserStory2 {
         loginPage.loginButton.click();
 
         select=new Select(homePage.selectACar);
-        select.selectByVisibleText("Opel Insigna");
+        select.selectByVisibleText("BMW Ix3");
         //Kia Rio   Ford Fiesta       VW Polo   Ford Kuga         Opel Insigna     BMW Ix3
         //Bugatti Chiron       Maserati       Mercedes Vito       Mercedes GLC     test
         //Porsche Ceyenne SUV    Audi Q8

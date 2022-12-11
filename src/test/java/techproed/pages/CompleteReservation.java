@@ -28,7 +28,7 @@ public class CompleteReservation {
     @FindBy(name="contract")
     public WebElement contract;
 
-    @FindBy (xpath = "/html/body/div[3]/div/div/form/div[3]/button[2]")
+    @FindBy (xpath = "//button[@type='submit'])[last()]")
     public WebElement completeReservationButton;
 
 }
